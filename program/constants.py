@@ -6,19 +6,21 @@ from decouple import config
 MODE = "DEVELOPMENT" #Production(mainnet)
 
 #Close all positions and orders
-ABORT_ALL_POSITIONS = False
+ABORT_ALL_POSITIONS = True
 
 #Find Cointegrated Pairs
-FIND_COINTEGRATED = True
+FIND_COINTEGRATED = False
 
 #Place Trades
-PLACE_TRADES = True
+PLACE_TRADES = False
+
+MANAGE_EXITS = False
 
 #Resolution
 RESOLUTION = "1HOUR"
 
 #Stats Window
-WINDOW = 21
+WINDOW = 21 #MA
 
 #Thresholds - Opening trade
 MAX_HALF_LIFE = 24
