@@ -5,10 +5,12 @@ from decouple import config
 
 MODE = "DEVELOPMENT" #Production(mainnet)
 
-#Close all positions and orders
-ABORT_ALL_POSITIONS = True
+TOKEN_FACTOR_10 = ["XLM-USD","DOGE-USD","TRX-USD",]
 
-#Find Cointegrated Pairs
+#Close all positions and orders
+ABORT_ALL_POSITIONS = False
+
+
 FIND_COINTEGRATED = False
 
 #Place Trades
@@ -24,9 +26,9 @@ WINDOW = 21 #MA
 
 #Thresholds - Opening trade
 MAX_HALF_LIFE = 24
-ZSCORE_THRESH = 1.5
-USD_PER_TRADE = 50
-USD_MIN_COLLATERAL = 1880 # on mainnet my balance
+ZSCORE_THRESH = 1.5 #попробуй выше поставить
+USD_PER_TRADE = 34
+USD_MIN_COLLATERAL = 1000 
 
 #Thresholds - Closing
 CLOSE_AT_ZSCORE_CROSS = True
