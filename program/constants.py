@@ -8,7 +8,7 @@ MODE = "DEVELOPMENT" #Production(mainnet)
 TOKEN_FACTOR_10 = ["XLM-USD","DOGE-USD","TRX-USD",]
 
 #Close all positions and orders
-ABORT_ALL_POSITIONS = True
+ABORT_ALL_POSITIONS = False
 
 
 FIND_COINTEGRATED = False
@@ -28,7 +28,7 @@ WINDOW = 21 #MA
 MAX_HALF_LIFE = 24
 ZSCORE_THRESH = 1.5 #попробуй выше поставить
 USD_PER_TRADE = 34
-USD_MIN_COLLATERAL = 1000 
+USD_MIN_COLLATERAL = 1000 #?????
 
 #Thresholds - Closing
 CLOSE_AT_ZSCORE_CROSS = True
