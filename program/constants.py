@@ -8,15 +8,15 @@ MODE = "DEVELOPMENT" #Production(mainnet)
 TOKEN_FACTOR_10 = ["XLM-USD","DOGE-USD","TRX-USD",]
 
 #Close all positions and orders
-ABORT_ALL_POSITIONS = False
+ABORT_ALL_POSITIONS = True
 
 
 FIND_COINTEGRATED = False
 
 #Place Trades
-PLACE_TRADES = False
+PLACE_TRADES = True
 
-MANAGE_EXITS = False
+MANAGE_EXITS = True
 
 #Resolution
 RESOLUTION = "1HOUR"
