@@ -14,7 +14,7 @@ ABORT_ALL_POSITIONS = False
 FIND_COINTEGRATED = False
 
 #Place Trades
-PLACE_TRADES = False
+PLACE_TRADES = True
 
 MANAGE_EXITS = True
 
@@ -27,7 +27,7 @@ WINDOW = 21 #MA
 #Thresholds - Opening trade
 MAX_HALF_LIFE = 24
 ZSCORE_THRESH = 1.5 #попробуй выше поставить
-USD_PER_TRADE = 34
+USD_PER_TRADE = 10
 USD_MIN_COLLATERAL = 1000 #?????
 
 #Thresholds - Closing
