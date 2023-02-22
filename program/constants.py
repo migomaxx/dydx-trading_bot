@@ -14,7 +14,7 @@ ABORT_ALL_POSITIONS = False
 FIND_COINTEGRATED = False
 
 #Place Trades
-PLACE_TRADES = False
+PLACE_TRADES = True
 
 MANAGE_EXITS = True
 
